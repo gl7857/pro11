@@ -95,8 +95,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void clicked2(View view) {
         sum2 = sum1 + num3;
-
         String st1 = et2.getText().toString();
+
         if (st1.isEmpty()){
             Toast.makeText(this, " please enter the answer!", Toast.LENGTH_SHORT).show();
         }else {
@@ -124,7 +124,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void clicked3(View view) {
-
         sum3 = sum2 + num4;
         String st2 = et3.getText().toString();
         if (st2.isEmpty()){
