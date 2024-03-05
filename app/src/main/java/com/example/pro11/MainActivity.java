@@ -69,7 +69,6 @@ public class MainActivity extends AppCompatActivity {
         if (st.isEmpty()){
             Toast.makeText(this, " please enter the answer!", Toast.LENGTH_SHORT).show();
         }else{
-
             answer1 = Integer.parseInt(st);
             sum1 = num1 + num2;
             iv1.setVisibility(View.VISIBLE);
@@ -101,7 +100,6 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, " please enter the answer!", Toast.LENGTH_SHORT).show();
         }else {
             answer2 = Integer.parseInt(st1);
-
             iv2.setVisibility(View.VISIBLE);
 
             if (answer2 == sum2) {
@@ -131,7 +129,6 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, " please enter the answer!", Toast.LENGTH_SHORT).show();
         }else{
             answer3 = Integer.parseInt(st2);
-
             iv3.setVisibility(View.VISIBLE);
 
             if (answer3==sum3) {
