@@ -126,6 +126,7 @@ public class MainActivity extends AppCompatActivity {
     public void clicked3(View view) {
         sum3 = sum2 + num4;
         String st2 = et3.getText().toString();
+
         if (st2.isEmpty()){
             Toast.makeText(this, " please enter the answer!", Toast.LENGTH_SHORT).show();
         }else{
