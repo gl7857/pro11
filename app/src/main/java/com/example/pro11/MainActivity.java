@@ -71,9 +71,7 @@ public class MainActivity extends AppCompatActivity {
         }else{
 
             answer1 = Integer.parseInt(st);
-
             sum1 = num1 + num2;
-
             iv1.setVisibility(View.VISIBLE);
 
             if (answer1==sum1){
