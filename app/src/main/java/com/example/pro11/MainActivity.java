@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
         String st = et1.getText().toString();
         if (st.isEmpty()){
             Toast.makeText(this, " please enter the answer!", Toast.LENGTH_SHORT).show();
-        }else{
+        } else {
             answer1 = Integer.parseInt(st);
             sum1 = num1 + num2;
             iv1.setVisibility(View.VISIBLE);
@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (st1.isEmpty()){
             Toast.makeText(this, " please enter the answer!", Toast.LENGTH_SHORT).show();
-        }else {
+        } else {
             answer2 = Integer.parseInt(st1);
             iv2.setVisibility(View.VISIBLE);
 
@@ -127,7 +127,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (st2.isEmpty()){
             Toast.makeText(this, " please enter the answer!", Toast.LENGTH_SHORT).show();
-        }else{
+        } else {
             answer3 = Integer.parseInt(st2);
             iv3.setVisibility(View.VISIBLE);
 
